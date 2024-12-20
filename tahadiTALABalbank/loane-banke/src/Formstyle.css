@@ -1,0 +1,97 @@
+form{ display: flex;
+ flex-direction: column;
+ width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+
+
+}
+body{
+    background-color: rgba(36, 15, 29, 0.938);
+}
+
+#btnsubmit{
+    background-color : rgba(176, 60, 118, 0.963);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.disAblde{
+    color: beige;
+    letter-spacing: 1px;
+    font-size: 25px;
+    background-color : rgba(57, 80, 12, 0.377) !important;
+}
+.theMessgeStyle{
+    background-color: rgba(15, 15, 15, 0.427);
+    width: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 200px;
+    left: 325px;
+    right: 80px;
+    top :50px;
+    color: rgb(22, 199, 19);
+  font-size: 30px;
+}
+.divAlform{
+    background-color: rgba(34, 34, 88, 0.639);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 20px;
+}
+label{
+ color: rgba(255, 255, 255, 0.975);
+ font-size: 20px;
+ letter-spacing: 1px;
+}
+
+
+input{
+    border-radius: 5px;
+    background-color: beige;
+    height: 20px;
+    width: 90%;
+    border: none;
+    padding: 5px;
+    
+
+}
+.slectedSumitStyle{
+    border-radius: 5px;
+    background-color: beige;
+    height: 30px;
+    width: 90%;
+    border: none;
+    padding: 7px;
+    
+}
+
+.h1Style{
+    
+    font-size: 40px;
+    color: rgb(239, 228, 228);
+}
+hr{
+   width: 100%;
+}
+option{ 
+    background-color: rgba(57, 57, 49, 0.183);
+    font-size: 20px;
+}
+.erorrMessge{
+    background-color:white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
